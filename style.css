@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://images2.alphacoders.com/132/thumbbig-1323478.webp');
+    background-size:1500px 600px ; /* Optional: Adjust the size as needed */
+    background-repeat: no-repeat; /* Optional: Prevent repeating the image */
+}
+.images{
+    width: 50%;
+    float: left;
+}
+.headings{
+    width: 50%;
+    float: left;
+    right: 0;
+    position: absolute;
+    padding-top: 20px;
+}
+.headings2{
+    float: left;
+    padding-left: 46px;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+@keyframes moveUp {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100px);
+    }
+}
+
+.moving-text {
+    animation: moveUp 2s linear ;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -.05em;
+    font-family: "Jost",sans-serif;
+}
+.button1{
+    margin-top: 53px;
+    margin-left: 165px;
+    padding: 20px 39px !important;
+    background: #65C9BB !important;
+    color: #fff !important;
+    padding: 11px 20px;
+    font-size: 16px;
+    border-radius: 0px;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    display: inline-block;
+
+}
